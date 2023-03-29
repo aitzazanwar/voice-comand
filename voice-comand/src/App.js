@@ -1,8 +1,10 @@
 import React from 'react';
 import { Container, Navbar, Nav, Row, Col, Button } from 'react-bootstrap';
+import './App.css';
 
 function HomePage() {
   return (
+
     <Container className="d-flex flex-column justify-content-center align-items-center vh-100">
       <Navbar bg="light" expand="md">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
