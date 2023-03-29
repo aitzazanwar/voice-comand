@@ -1,6 +1,6 @@
-bodynp {
+body {
   height: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/bg.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/bg1.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -8,17 +8,11 @@ bodynp {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, p, h2 {
+  color: #6352ac;
+  
 }

@@ -6,7 +6,7 @@ function HomePage() {
   return (
 
     <Container className="d-flex flex-column justify-content-center align-items-center vh-100">
-      <Navbar bg="light" expand="md">
+      <Navbar class="navbar navbar-expand-lg navbar-light bg-light">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
@@ -20,7 +20,7 @@ function HomePage() {
       </Navbar>
       <Row>
         <Col className="text-center">
-          <h1>Welcome to Voice recognizer</h1>
+          <h1>Welcome To Voice Recognizer</h1>
           <p>This is my homepage.</p>
           
           <Button variant="primary">Click & Speak</Button>
