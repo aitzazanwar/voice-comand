@@ -12,7 +12,7 @@ function HomePage() {
             <Nav.Link href="#services">Services</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href="https://netfreight.descartes.com/Login/ClientLogin.aspx">NetFreight</Nav.Link>
-            <Nav.Link href="mailto:accounts@orbitcargoservices.com">@accounts</Nav.Link>
+            <Nav.Link href="mailto:accounts@example.com">@accounts</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
